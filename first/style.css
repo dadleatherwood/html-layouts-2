@@ -1,0 +1,34 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+
+.container {
+  width: 95%;
+  margin: 0 auto;
+
+}
+
+.container.three-boxes {
+  display:flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.box {
+  width: 300px;
+  height: 180px;
+  margin-top: 35px;
+}
+
+.box.red {
+  background-color: #D0021B;
+}
+
+.box.blue {
+  background-color: #4A90E2;
+}
+
+.box.grey {
+  background-color: #4A4A4A;
+}
